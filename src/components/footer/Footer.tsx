@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
     return (
         <footer className={styles.footer}>
             <div className={styles.footer_wrapper}>
-                <p className='text-white text-sm'>
+                <p>
                     &copy;{format(new Date(), 'yyyy')} &nbsp; Dmytro Kotykhin
                 </p>
                 <div className={styles.icon_wrapper}>
